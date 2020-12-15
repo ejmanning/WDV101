@@ -1,0 +1,100 @@
+/* The following CSS styles the text*/
+@font-face {
+    font-family: 'alpha_echoregular';
+    src: url('../fonts/alpha_echo-webfont.eot');
+    src: url('../fonts/alpha_echo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alpha_echo-webfont.woff2') format('woff2'),
+         url('../fonts/alpha_echo-webfont.woff') format('woff'),
+         url('../fonts/alpha_echo-webfont.ttf') format('truetype'),
+         url('../fonts/alpha_echo-webfont.svg#alpha_echoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p	{color:#4a3333;
+	font-family: Arial, Helvetica, sans-serif;}
+
+body	{background-color:#f0d9c2;
+		padding:20px;}
+
+@mixin headings	{color:#f7ed7c;
+				background-color:#2e1e01;
+				padding: 15px;
+				margin: 1.2em;
+				border: 5px solid black;}
+
+
+h1	{@include headings;
+	font-family: 'alpha_echoregular';}
+	
+h2, h3	{@include headings;
+		font-family: 'Lobster', cursive;}
+
+@mixin colorRed	{color:red;}
+
+p strong	{@include colorRed;}
+
+.bluebold	{color: darkblue;
+			font-weight: bold;}
+			
+p.redbold	{@include colorRed;
+			font-weight:bold;}
+			
+a	{@include colorRed;}
+
+a:hover	{@include colorRed;}
+
+p.intro::first-letter	{@include colorRed;
+						font-size: 200%;}
+						
+ul li	{list-style-type:square;}
+
+ol li	{list-style-type:upper-roman;}
+
+img	{border:5px solid darkblue;
+	padding: 15px;
+	background-color:white;
+	margin:1.2em;}
+
+.noborder	{border-style:none;
+			background-color:transparent;
+			display:block;
+			margin: 0 auto;}
+
+nav	{background-color:darkblue;
+	line-height:200%;
+	border: 5px solid black;
+	
+		li	{display:inline;
+		padding-right: 100px;}
+
+		ul	{display:flex;
+ 		flex-wrap:wrap;
+ 		justify-content:space-between;
+ 		list-style-type: none;}
+	
+		a	{color:pink;
+		text-decoration:none;}
+		
+		a:hover	{background-color:#f0d9c2;
+			color:#2e1e01;
+			padding: .5em; }
+	} /*end nav*/
+			
+.bold	{font-weight:bold;}
+
+@mixin floatleft	{float:left;
+					margin-left:1.2em;
+					margin-right:1.2em;}
+					
+@mixin floatright	{float:right;
+					margin-left:1.2em;
+					margin-right:1.2em;}
+
+			
+.floatleft	{@include floatleft;}
+			
+.floatright	{@include floatright;}
+
+.clearfloat	{clear:both;}

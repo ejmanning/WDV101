@@ -1,0 +1,56 @@
+/* The following CSS styles the text*/
+@font-face {
+    font-family: 'alpha_echoregular';
+    src: url('../fonts/alpha_echo-webfont.eot');
+    src: url('../fonts/alpha_echo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alpha_echo-webfont.woff2') format('woff2'),
+         url('../fonts/alpha_echo-webfont.woff') format('woff'),
+         url('../fonts/alpha_echo-webfont.ttf') format('truetype'),
+         url('../fonts/alpha_echo-webfont.svg#alpha_echoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'acmeregular';
+    src: url('../fonts/Acme-Regular-webfont.eot');
+    src: url('../fonts/Acme-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Acme-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Acme-Regular-webfont.woff') format('woff'),
+         url('../fonts/Acme-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Acme-Regular-webfont.svg#acmeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+h1	{
+  font-family: 'acmeregular';
+	text-align:center;
+	background-color:purple;
+  color: white;}
+
+h2	{
+  font-family: 'alpha_echoregular';
+	text-align:center;
+	background-color:#31f527;}
+
+body	{
+  background-color:lightgray;}
+
+img	{
+  padding:0em;
+	border:5px solid darkblue;
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+  margin-bottom: 5%;
+  width: 30%;}
+
+#width {
+  width: 50%;
+}
+
+  img:hover	{
+     -ms-transform: scale(1,1); /* IE 9 */
+    transform: scale(1.5,1.5); /* Standard syntax */}
+
+p	{
+  text-align:center;}

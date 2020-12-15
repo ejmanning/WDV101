@@ -1,0 +1,101 @@
+/* The following CSS styles the text*/
+@font-face {
+    font-family: 'balooregular';
+    src: url('../fonts/Baloo-Regular-webfont.eot');
+    src: url('../fonts/Baloo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Baloo-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Baloo-Regular-webfont.woff') format('woff'),
+         url('../fonts/Baloo-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Baloo-Regular-webfont.svg#balooregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+
+p {color:#824217;
+font-family: Arial, Helevetica, sans-serif;
+font-size: 1.4em;
+text-indent: 25px;
+line-height:1.5;}
+
+body	{background-color:bisque;}
+
+h1	{text-align:center;
+	font-family: 'Bungee Inline', cursive;
+	word-spacing: 5px;
+	padding:.5em;
+	color:#EDE6DE;
+	background-color:#47331F;}
+	
+h3, h4	{color:#301f01;
+ font-family: 'balooregular';
+border-top:2px dashed red;}
+	
+ul li	{color:#824217;
+list-style-image:url("../images/foundation_bullet.gif");
+font-family: Arial, Helevetica, sans-serif;}
+
+
+ol li	{color:#824217;
+list-style-type:upper-roman;
+font-family: Arial, Helevetica, sans-serif;}
+
+p strong	{color:red;}
+
+.bluebold	{color:darkblue;
+			font-weight: bold;}
+			
+p.orangebold	{color:orange;
+			font-weight: bold;}
+	
+a	{color:green;
+	font-weight:bold;}
+	
+a:hover	{color:red;}
+
+p.intro::first-letter	{color:red;
+						font-size: 200%;}
+						
+img	{border:5px solid darkblue;
+	padding: 15px;
+	background-color:white;}
+
+.noborder	{border-style:none;
+			background-color:transparent;
+			display: block;
+			margin: 0 auto;}
+
+nav	{background-color:darkblue;
+	line-height:200%;
+	padding: 10px;}
+
+nav li	{display:inline;
+		padding-right:40px}
+		
+nav a	{color:white;
+		text-decoration:none;}
+	
+nav a:hover	{background-color:bisque;
+			color:#47331F;
+			padding: .5em;}
+			
+.floatleft	{float:left;
+			margin-right:1.2em;
+			margin-bottom: 1.2em;}
+
+.floatright	{float:right;
+			margin-left:1.2em;
+			margin-right:1.2em;}
+			
+.clearfloat	{clear:both;}
+			
+
+
+
+
+
+
+
+
+
+
+

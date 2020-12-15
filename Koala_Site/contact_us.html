@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us!</title>
+<style>
+
+    
+form	{background-color:bisque;
+		border: 5px groove darkblue;
+		margin: 0 auto;
+		padding: 15px;
+		color: darkblue;}
+		
+h1		{font-size:2em;
+		background-color:#47331F;
+		color:white;
+		text-transform:uppercase;
+		font-family: 'Bungee Inline';
+		padding: 15px;}
+		
+label	{font-family: Arial, Helvetica, sans-serif;
+		font-size: 0.8em;
+		margin-top: 5px;}
+		
+fieldset	{margin-top:15px;
+			border:5px solid red;}
+			
+form	{text-align:center;
+		padding:.5em;
+		background-color:bisque;}
+		
+
+</style>
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
+</head>
+<body>
+<form method="post" action="files/form_response_basic.php">
+<h1>Contact Us!</h1>
+
+<fieldset>
+<p>Please give us your contact information so we can get back with you.</p>
+<label>First name:</label>
+<input type="text" name="firstname"><br>
+<label>Last Name:</label>
+<input type="text" name="lastname"><br>
+<label>Email:</label>
+<input type="email" name="email" placeholder="yourname@email.com"><br>
+</fieldset>
+<fieldset>
+<p>Please choose a topic you are interested in.</p>
+<input type="radio" name="topics" value="savingkoalas">Saving Koalas<br>
+<input type="radio" name="topics" value="moreinformation">More Information<br>
+<input type="radio" name="topics" value="picturesofkoalas">Pictures of Koalas<br>
+<input type="radio" name="topics" value="donatingtokbic">Donating to Koala Bear National Information Center<br>
+<input type="radio" name="topics" value="adoptakoala">Adopt a Koala<br>
+
+
+
+<p>Please type any additional questions or concerns you have.</p>
+<textarea name="message" rows="10" cols="50"></textarea><br>
+</fieldset>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+
+</form>
+</body>
+</html>

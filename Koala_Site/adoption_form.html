@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adoption Form</title>
+
+<!-- Author: Erica Manning 
+Date: August 26, 2019-->
+
+<meta charset="UTF-8">
+<meta name="description" content="Home page for the koala site.">
+<meta name="keywords" content="koala bears, KBNIC, education, non-profit">
+<link rel="stylesheet" type="text/css" href="css/koala.css">
+<link rel="stylesheet" type="text/css" href="css/flex_layout">
+
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
+
+<style>
+	
+body	{display:flex;
+		background-color:lightsteelblue;
+		margin: 3em;}
+		
+.container	{display:flex;
+			background-color:bisque;
+			width:99.75%;
+			justify-content:center;
+			border: 2px solid black;
+			border-top:10px solid black;}
+	
+.flex-container	{display:flex;
+				flex-direction:column;
+				justify-content:center;
+				width:80%;
+				padding: 1.2em;}
+				
+.flex-form	{display:flex;
+			justify-content:flex-start;}
+
+.flex-form label	{text-align:right;
+					width:25%;
+					margin-right:20px;}
+					
+.flex-form input	{width: 60%;}
+
+.flex-radio	{display:flex;
+			flex-direction:row;
+			justify-content:center;}
+			
+.flex-buttons	{display:flex;
+				justify-content:center;}
+			
+	
+form {background-color:lightsteelblue;
+	width:80%;
+	border:thin solid black;
+	border-radius:10px;
+	padding: 0.5em;}
+</style>
+	
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+
+<img src="images/koala_banner_new(3).jpg" alt="image of web banner for koala site." class="noborder">
+<h1>Adopt a Koala!</h1>
+
+</header>
+
+<nav>
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="fast_facts.html">Fast Facts</a></li>
+	<li><a href="gallery.html">Gallery</a></li>
+	<li><a href="adoption_form.html">Adopt</a></li>
+	<li><a href="contact_us.html">Contact Us</a></li>
+</ul>
+</nav>
+
+</head>
+<div class="container">
+<div class="flex-container">	
+	<section>
+		<h2>Adopt a Koala!</h2>
+		<p style="color:black">When you adopt a Koala, you receive a beautiful personalized adoption certificate with a photo of your Koala, a welcome letter, Koala stickers, and more. And if you are in the area, you can drop in and visit the adorable Koala you adopted! *(Cost of Koala adoption does not include park admission fees).</p>
+<img src="images/koala_gallery/koala_a.jpg" alt="koalas">
+	
+	</section>
+	
+	
+	<section>
+		<form method="post" action="#">
+	
+
+			<p style="color:black;">Complete the form below. We will send you information on adoptions.</p>
+			<fieldset>
+			<legend>Contact Information</legend>
+
+			<div class="flex-form">
+				<label for="firstName">First Name: </label>
+				<input type="text" name="firstName" id="firstName" >
+			</div>
+
+			<div class="flex-form">
+				<label for="lastName">Last Name: </label>
+				<input type="text" name="lastName" id="lastName">
+			</div>
+			
+			<div class="flex-form">
+				<label for="streetAddress">Street Address: </label>
+				<input type="text" name="streetAddress" id="streetAddress">
+			</div>
+			
+			<div class="flex-form">
+				<label for="city">City: </label>
+				<input type="text" name="city" id="city">
+			</div>
+			
+			<div>
+			<p class="flex-form">
+			<label for="selectState" style="color:black; font-size: 65%; font-family: Times New Roman, Times, serif;">State: </label>
+				<select name="selectState" id="selectState">
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+</select></div>
+
+<div class="flex-form">
+				<label for="zip">Zip: </label>
+				<input type="text" name="zip" id="zip" >
+			</div>
+
+			<div class="flex-form">
+				<label for="emailAddress">Email Address: </label>
+				<input type="text" name="emailAddress" id="emailAddress" 						placeholder="name@anywhere.com">
+				</div>	
+				
+				<div class="flex-form">
+				<label for="phone">Phone: </label>
+				<input type="text" name="phone" id="phone" placeholder="123-456-7890">
+			</div>
+			 <div class="flex-radio">
+				  <div style="margin-right:1.2em;">
+					<input type="radio" name="phone" id="cellButton" value="cell" checked>
+					<label for="photoButton">Cell</label>
+				  </div>
+				  <div style="margin-right:1.2em;">
+					<input type="radio" name="phone" id="homeButton" value="home">
+					<label for="grdButton">Home</label>
+				  </div>
+				  <div style="margin-right:1.2em;">
+					<input type="radio" name="phone" id="workButton" value="work">
+					<label for="wdvButton">Work</label>
+				  </div>
+				  </div><!--close div flex radio-->			
+			</fieldset>
+			
+			
+			
+			
+			
+			
+		
+				<fieldset>
+				<legend>Adoption Options</legend>
+				<p style="color:navy; text-align:center;">Choose a category of Koalas that interest you. Check all that apply.</p>
+				  <div class="flex-radio">
+				  <div style="margin-right:1.2em;">
+					<input type="checkbox" name="koala" id="joeyButton" value="joey"
+					<label for="joeyButton">Joey</label>
+				  </div>
+				  <div style="margin-right:1.2em;">
+					<input type="checkbox" name="koala" id="adultButton" value="adult">
+					<label for="adultButton">Adult</label>
+				  </div>
+				  <div style="margin-right:1.2em;">
+					<input type="checkbox" name="koala" id="pairsButton" value="pair">
+					<label for="pairsButton">Mum and Joey pairs</label>
+				  </div>
+				  <div style="margin-right:1.2em;">
+					<input type="checkbox" name="koala" id="wildButton" value="wild">
+					<label for="wildButton">In the wild</label>
+					</div>
+				  </div><!--close div flex radio-->				
+				
+			</p>
+<p style="color:navy; text-align:center;">Questions? Send us a message.</p>
+			<p class="flex-form">
+				<label for="inputMessage" style="font-family: Times New Roman, Times, serif; color:black;">Message: </label>
+				<textarea name="inputMessage" id="inputMessage" rows="4" cols="50">
+				</textarea>
+			</p>
+			</fieldset>
+
+			<p class="flex-buttons">
+				<input type="submit" value="Submit" style="margin-right:0.5em;">
+				<input type="reset" value="Reset">
+			</p>
+
+		</form>
+	</section>
+</div><!--close div flex-container-->
+</div><!--close div container-->
+<footer>
+
+<p> © Copyright 2018 All rights reserved. Australian Koala Foundation</p>
+<a href="https://www.savethekoala.com" target="_blank">
+<img src="images/KOALA_LOGO(3).svg" alt="koala logo" width="10%" height="10%" class="noborder">
+</a>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+</footer>
+</body>
+</html>

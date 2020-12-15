@@ -1,0 +1,89 @@
+/* The following CSS styles the text*/
+    
+@font-face {
+    font-family: 'geometry_soft_probold_n';
+    src: url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.eot');
+    src: url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.woff2') format('woff2'),
+         url('../fonts/Geometry_Soft_Pro-Bold_N-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+    
+@font-face {
+    font-family: 'daysregular';
+    src: url('../fonts/Days-webfont.eot');
+    src: url('../fonts/Days-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Days-webfont.woff2') format('woff2'),
+         url('../fonts/Days-webfont.woff') format('woff'),
+         url('../fonts/Days-webfont.ttf') format('truetype'),
+         url('../fonts/Days-webfont.svg#daysregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+body	{background-color:#abafb0;}
+
+img	{border:solid 3px #54d1ff;
+	margin:1.2em;}
+
+h1	{background-color:#cc4752;
+	padding:1em;
+	font-family: 'daysregular';}
+
+h2, h3	{background-color:#cc4752;
+	padding:1em;
+	font-family: 'geometry_soft_probold_n';}
+	
+p {font-family: "Verdana", Helvetica, sans-serif;}
+
+li	{font-family:  "Verdana", Helvetica, sans-serif;}
+
+.homelist	{list-style-position: inside;}
+
+
+img.noborder	{border-style:none;
+			background-color:transparent;
+			display: block;
+			margin: 0 auto;}
+
+.floatleft	{float:left;
+			margin-right:1.2em;
+			margin-bottom: 1.2em;}
+
+.floatright	{float:right;
+			margin-left:1.2em;
+			margin-right:1.2em;}
+			
+.clearfloat	{clear:both;}
+
+nav	{background-color:lightblue;
+	line-height:300%;
+	border:solid 5px white;}
+
+ 	
+nav li:first-child	{margin-right:auto;}
+
+.sale	{background-color:#cc4752;}
+
+.sale:hover	{background-color: white;
+			color: #cc4752;}
+
+nav li	{display:inline;
+		padding:10px;
+		font-family: 'geometry_soft_probold_n';}
+		
+nav a	{color:white;
+		text-decoration:none;
+		border-right:solid 3px white;
+		padding: 15px;}
+	
+nav a:hover	{background-color:#1672ab;
+			color:black;
+			padding: 1em;}
+
+
+ul.nobullet	{list-style-type: none;}
+
+nav ul  {list-style-type:none;
+		display:flex;
+ 		flex-wrap: wrap;}
+

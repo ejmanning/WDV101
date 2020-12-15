@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flex Gallery with rows and columns</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+*	{margin: 0;
+	padding: 0;
+	box-sizing:border-box;}
+	
+body	{background-color:beige;}
+
+#container	{background-color: lightgray;
+			width: 85%;
+			padding:0.5em;
+			margin: 0.5em auto;}
+			
+header	{text-align:center;
+		padding: 0.5em;}
+		
+.row	{display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		padding:0.5em;}
+		
+.column	{flex:20%;
+		padding:0.5em;}
+		
+.column img	{width: 100%;
+			vertical-align:middle;
+			margin-top: 0.5em;
+			margin-bottom:0.5em;}
+			
+.column > div	{border: 2px solid blue;
+				background-color: lightpink;
+				margin-bottom:0.2em;
+				margin-top: 0.2em;}
+
+@media only screen and (max-width: 600px)	
+{.row	{flex-direction:column;}} 
+
+
+</style>
+
+
+</head>
+<body>
+<div id="container">
+<header>
+<h2>Flex Gallery with Rows and Columns</h2>
+</header>
+
+<div class="row">
+
+<div class="column">
+<div><img src="images/balloons.jpg">
+	<figcaption>Balloons</figcaption>
+	<p>Color Balloons</p></div>
+	
+<div><img src="images/border_collie.jpg"></div>
+<div><img src="images/frog.jpg"></div>
+<div><img src="images/pepper_cob.jpg"></div>
+<div><img src="images/off_road.jpg"></div>
+</div><!--close div class column-->
+
+<div class="column">
+<img src="images/cara_bandSU.jpg">
+<img src="images/cycling_bluesky.jpg">
+<img src="images/red_lady.jpg">
+<img src="images/cycle_gear.jpg">
+<img src="images/pond.jpg">
+</div><!--close div class column-->
+
+<div class="column">
+<img src="images/pink_orchid.jpg">
+<img src="images/cheese.jpg">
+<img src="images/cycling_sky.jpg">
+<img src="images/trees1.jpg">
+<img src="images/chitz.jpg">
+</div><!--close div class column-->
+
+
+
+
+
+
+
+</div><!--close div class row-->
+</div><!--close div container-->
+</body>
+</html>

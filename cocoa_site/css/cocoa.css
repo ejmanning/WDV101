@@ -1,0 +1,132 @@
+/* The following CSS styles the text*/
+@font-face {
+  font-family: "alpha_echoregular";
+  src: url("../fonts/alpha_echo-webfont.eot");
+  src: url("../fonts/alpha_echo-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alpha_echo-webfont.woff2") format("woff2"), url("../fonts/alpha_echo-webfont.woff") format("woff"), url("../fonts/alpha_echo-webfont.ttf") format("truetype"), url("../fonts/alpha_echo-webfont.svg#alpha_echoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+p {
+  color: #4a3333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0d9c2;
+  padding: 20px;
+}
+
+h1 {
+  color: #f7ed7c;
+  background-color: #2e1e01;
+  padding: 15px;
+  margin: 1.2em;
+  border: 5px solid black;
+  font-family: "alpha_echoregular";
+}
+
+h2, h3 {
+  color: #f7ed7c;
+  background-color: #2e1e01;
+  padding: 15px;
+  margin: 1.2em;
+  border: 5px solid black;
+  font-family: "Lobster", cursive;
+}
+
+p strong {
+  color: red;
+}
+
+.bluebold {
+  color: darkblue;
+  font-weight: bold;
+}
+
+p.redbold {
+  color: red;
+  font-weight: bold;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: red;
+}
+
+p.intro::first-letter {
+  color: red;
+  font-size: 200%;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+ol li {
+  list-style-type: upper-roman;
+}
+
+img {
+  border: 5px solid darkblue;
+  padding: 15px;
+  background-color: white;
+  margin: 1.2em;
+}
+
+.noborder {
+  border-style: none;
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: darkblue;
+  line-height: 200%;
+  border: 5px solid black;
+}
+nav li {
+  display: inline;
+  padding-right: 100px;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+nav a {
+  color: pink;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #f0d9c2;
+  color: #2e1e01;
+  padding: 0.5em;
+}
+
+/*end nav*/
+.bold {
+  font-weight: bold;
+}
+
+.floatleft {
+  float: left;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+}
+
+.floatright {
+  float: right;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+}
+
+.clearfloat {
+  clear: both;
+}
+
+/*# sourceMappingURL=cocoa.css.map */
